@@ -1,0 +1,45 @@
+To connect the Arduino kit to the Ultrasonic Radar project, follow these steps:
+
+Required Components
+Arduino board (e.g. Arduino UNO, Arduino Nano)
+Ultrasonic sensor (e.g. HC-SR04)
+Servo motor (e.g. SG90)
+Jumper wires
+Breadboard 
+
+Steps
+
+Clone the project code from the GitHub repository by following these steps:
+ Go to the repository URL: https://github.com/Veolinan/Arduino-ultrasonic-radar
+ Click on the green "Code" button and then click on "Download ZIP".
+ Extract the downloaded ZIP file to a folder on your computer.
+ 
+Connect the ultrasonic sensor to the Arduino board:
+  Connect the sensor's VCC pin to the Arduino's 5V pin.
+  Connect the sensor's GND pin to the Arduino's GND pin.
+  Connect the sensor's TRIG pin to Arduino's digital pin 9.
+  Connect the sensor's ECHO pin to Arduino's digital pin 10.
+  
+  
+Connect the servo motor to the Arduino board:
+  Connect the servo motor's GND(brown/black wire) pin to the Arduino's GND pin.
+  Connect the servo motor's VCC pin(Red wire) to the Arduino's 5V pin.
+  Connect the servo motor's signal pin(Yellow wire) to the Arduino's digital pin 6.
+  
+  
+Connect the Arduino board to your computer using a USB cable.
+
+Open the Arduino IDE software on your computer.
+
+Click on "File" -> "Open" and select the "Ultrasonic_Radar.ino" file from the extracted project folder.
+
+In the Arduino IDE, select the appropriate board type and port from the "Tools" menu.
+
+Click on the "Upload" button in the Arduino IDE to upload the code to the Arduino board.
+
+
+The Ultrasonic Radar should now be operational, and you can use it to detect objects in its range.
+
+
+
+Further enquiries&queries to be consulted via email @masigwafelix@gmail.com with email subject Arduino Ultrasonic sensor
